@@ -12,4 +12,24 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.android</groupId>
+			<artifactId>platform</artifactId>
+			<version>19</version>
+			<systemPath>${env.ANDROID_HOME}/platforms/android-19/android.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>kxml2</groupId>
+			<artifactId>kxml2</artifactId>
+			<version>2.3.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
 </project>

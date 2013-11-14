@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sensors>
+
+	<sensor name="FitBit Flex">
+		<service uuid="00001801-0000-1000-8000-00805f9b34fb">
+		</service>
+		<service uuid="adabfb00-6e7d-4601-bda2-bffaa68956ba">
+			<characteristic uuid="adabfb01-6e7d-4601-bda2-bffaa68956ba" />
+			<characteristic uuid="adabfb02-6e7d-4601-bda2-bffaa68956ba" />
+		</service>
+		<service uuid="558dfa00-4fa8-4105-9f02-4eaa93e62980">
+			<characteristic uuid="558dfa01-4fa8-4105-9f02-4eaa93e62980" />
+		</service>
+		<service uuid="0000180a-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a29-0000-1000-8000-00805f9b34fb" />
+			<characteristic uuid="0000fb00-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="0000180f-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a19-0000-1000-8000-00805f9b34fb" />
+		</service>
+	</sensor>
+	<sensor name="TokenCube">
+		<service uuid="00001800-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a00-0000-1000-8000-00805f9b34fb" />
+			<characteristic uuid="00002a01-0000-1000-8000-00805f9b34fb" />
+			<characteristic uuid="00002a04-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001801-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a05-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001804-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a07-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001802-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a06-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001803-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a06-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="0000180f-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002a19-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001910-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002b10-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001920-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002b20-0000-1000-8000-00805f9b34fb" />
+		</service>
+		<service uuid="00001930-0000-1000-8000-00805f9b34fb">
+			<characteristic uuid="00002b30-0000-1000-8000-00805f9b34fb" />
+		</service>
+	</sensor>
+
+</sensors>
