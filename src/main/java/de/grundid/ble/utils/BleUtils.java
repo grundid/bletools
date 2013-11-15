@@ -33,4 +33,21 @@ public class BleUtils {
 		}
 		return sb.toString();
 	}
+
+	public static String convertBinToASCII(byte[] bin) {
+		return convertBinToASCII(bin, 0, bin.length);
+	}
+
+	public static String convertBinToASCII(byte[] bin, int offset, int length) {
+		StringBuilder sb = new StringBuilder();
+		for (int x = offset; x < offset + length; x++) {
+			String s = Integer.toHexString(bin[x]);
+			if (s.length() == 1)
+				sb.append('0');
+			else
+				s = s.substring(s.length() - 2);
+			sb.append(s);
+		}
+		return sb.toString().toUpperCase();
+	}
 }
