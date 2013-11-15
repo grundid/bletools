@@ -5,6 +5,7 @@ import java.util.List;
 
 public class GattDb {
 
+	// FIXME convert all UUIDs to lower case
 	private static List<GattService> gattServices = new ArrayList<GattService>();
 	private static List<GattCharacteristic> gattCharacteristics = new ArrayList<GattCharacteristic>();
 	static {
